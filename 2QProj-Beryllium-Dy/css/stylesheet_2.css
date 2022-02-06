@@ -1,0 +1,178 @@
+
+body {
+	background-color: yellowgreen;
+}
+
+header {
+	background-color: royalblue;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+div {
+	font-size: small;
+}
+
+h1 {
+	text-align: center;
+}
+
+nav li a:link {
+		text-decoration: none;
+		background-color: #2EA216;
+		padding: 50px;
+}
+
+nav li a:visited {
+	color: black;
+}
+
+nav li a:hover {
+	color: blue;
+}
+
+nav li a:active {
+	color: red;
+	background-color: royalblue;
+}
+
+#Awakening {
+	float: left;
+	width: 290px;
+	height: 180px;
+	padding-right: 30px;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+#Awakening_2 {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#Awakening_3 {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#Blazing_Sword {
+	float: right;
+	width: 255px;
+	height: 180px;
+	padding-right: 20px;
+	padding-left: 30px;
+	margin-top: 10px;
+}
+
+#Blazing_Sword_2 {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+}
+
+#Blazing_Sword_3 {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+#PoR {
+	float: left;
+	width: 170px;
+	height: 160px;
+	padding-right: 30px;
+	padding-left: 20px; 
+	margin-top: 10px;
+}
+
+#PoR_2 {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#PoR_3 {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #B60B0B;
+}
+
+article {
+	background-color: grey
+}
+
+.sprite_1 {
+	background: url('htdocs/images/icon.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_1:hover {
+	background: url('htdocs/images/icon.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+
+.sprite_2 {
+	background: url('htdocs/images/icon.png') no-repeat -296px -91px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_2:hover {
+	background: url('htdocs/images/icon.png') no-repeat -296px -16px;
+	width: 33px;
+	height: 33px;
+}
+
+.sprite_3 {
+	background: url('htdocs/images/icon.png') no-repeat -412px -91px;
+	width: 32px;
+	height: 33px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_3:hover {
+	background: url('htdocs/images/icon.png') no-repeat -412px -16px;
+	width: 32px;
+	height: 33px;
+}
+
+nav.navigation li{
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 10px;
+}

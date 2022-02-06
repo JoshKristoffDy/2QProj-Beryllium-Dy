@@ -1,0 +1,151 @@
+
+body {
+	background-color: yellowgreen;
+}
+
+header {
+	background-color: royalblue;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+
+div {
+	font-size: small;
+}
+
+h1 {
+	text-align: center;
+}
+
+#OG_Fire_Emblem {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 433px;
+}
+
+#link_1 {
+	text-align: center;
+	font-size: small;
+}
+
+#link_1 a:link {
+	text-decoration: none;
+	color: purple;
+}
+
+#link_1 a:hover {
+	color: hotpink;
+}
+
+#link_1 a:active {
+	color: grey;
+}
+
+#block_of_text {
+	text-align: center;
+	font-size: 110%;
+	background-color: grey;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+nav.navigation li{
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav li a:link {
+		text-decoration: none;
+		background-color: #2EA216;
+		padding: 50px;
+}
+
+nav li a:visited {
+	color: black;
+}
+
+nav li a:hover {
+	color: blue;
+}
+
+nav li a:active {
+	color: red;
+	background-color: royalblue;
+}
+
+section {
+	background-color: black;
+}
+
+.audio {
+	text-align: center;
+}
+
+.sprite_1 {
+	background: url('htdocs/images/icon.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_1:hover {
+	background: url('htdocs/images/icon.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+
+.sprite_2 {
+	background: url('htdocs/images/icon.png') no-repeat -296px -91px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_2:hover {
+	background: url('htdocs/images/icon.png') no-repeat -296px -16px;
+	width: 33px;
+	height: 33px;
+}
+
+.sprite_3 {
+	background: url('htdocs/images/icon.png') no-repeat -412px -91px;
+	width: 32px;
+	height: 33px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_3:hover {
+	background: url('htdocs/images/icon.png') no-repeat -412px -16px;
+	width: 32px;
+	height: 33px;
+}
+
+footer {
+	background-color: 
+}

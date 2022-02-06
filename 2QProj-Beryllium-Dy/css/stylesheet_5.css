@@ -1,0 +1,161 @@
+
+body {
+	background-color: yellowgreen;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	background-color: royalblue;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+
+nav li a:link {
+		text-decoration: none;
+		background-color: #2EA216;
+		padding: 50px;
+}
+
+nav li a:visited {
+	color: black;
+}
+
+nav li a:hover {
+	color: blue;
+}
+
+nav li a:active {
+	color: red;
+	background-color: royalblue;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+article p, section p {
+	font-size: 80%;
+	background-color: grey; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.sprite_1 {
+	background: url('htdocs/images/icon.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.sprite_1:hover {
+	background: url('htdocs/images/icon.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+
+.sprite_2 {
+	background: url('htdocs/images/icon.png') no-repeat -296px -91px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_2:hover {
+	background: url('htdocs/images/icon.png') no-repeat -296px -16px;
+	width: 33px;
+	height: 33px;
+}
+
+.sprite_3 {
+	background: url('htdocs/images/icon.png') no-repeat -412px -91px;
+	width: 32px;
+	height: 33px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_3:hover {
+	background: url('htdocs/images/icon.png') no-repeat -412px -16px;
+	width: 32px;
+	height: 33px;
+}
+
+.kirby {
+    background: url('htdocs/images/Kirby.png') no-repeat -20px -10px;
+	width: 64px;
+	height: 64px;
+	
+    animation: kirbyPunch 1s steps(9) infinite;
+	image-rendering: pixelated;
+	overflow: hidden;
+	
+}
+
+@keyframes kirbyPunch {
+  from { background-position-x: 0px; }
+  to { background-position-x: -578px;}
+}
+
+.kirby_2 {
+    background: url('htdocs/images/Kirby.png') no-repeat -10px -76px;
+	width: 64px;
+	height: 55px;
+
+
+    animation: kirbySmile 1s steps(9) infinite;
+	image-rendering: pixelated;
+	overflow: hidden;
+}
+
+@keyframes kirbySmile {
+  from { background-position-x: 0px; }
+  to { background-position-x: -578px;}
+}
+
+.kirby_3 {
+	background: url('htdocs/images/Kirby.png') no-repeat -16px -265px;
+	width: 70px;
+	height: 70px;
+
+    animation: kirbyTackle 1s steps(9) infinite;
+	image-rendering: pixelated;
+	overflow: hidden;
+}
+
+@keyframes kirbyTackle {
+  from { background-position-x: 0px; }
+  to { background-position-x: -578px;}
+}
+
+.Kirb{
+	text-align: center;	
+}
+
+.Kirb ul li {
+	display: inline-block;
+}
+
+nav.navigation li{
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 10px;
+}
+

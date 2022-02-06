@@ -1,0 +1,128 @@
+
+body {
+	background-color: yellowgreen;
+}
+
+article p, section p {
+	font-size: 80%;
+	background-color: grey; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+header {
+	background-color: royalblue;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#Support {
+	width: 800px;
+	height: 400px;
+	padding-bottom: 20px;
+}
+
+#Secret {
+	width: 800px;
+	height: 400px;
+}
+
+#Rescue {
+	width: 800px;
+	height: 400px;
+}
+
+nav li a:link {
+		text-decoration: none;
+		background-color: #2EA216;
+		padding: 50px;
+}
+
+nav li a:visited {
+	color: black;
+}
+
+nav li a:hover {
+	color: blue;
+}
+
+nav li a:active {
+	color: red;
+	background-color: royalblue;
+}
+
+article, section {
+	text-align: center;
+}
+
+#outro {
+	color: #B60B0B;
+}
+
+.sprite_1 {
+	background: url('htdocs/images/icon.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.sprite_1:hover {
+	background: url('htdocs/images/icon.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+
+.sprite_2 {
+	background: url('htdocs/images/icon.png') no-repeat -296px -91px;
+	width: 33px;
+	height: 33px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_2:hover {
+	background: url('htdocs/images/icon.png') no-repeat -296px -16px;
+	width: 33px;
+	height: 33px;
+}
+
+.sprite_3 {
+	background: url('htdocs/images/icon.png') no-repeat -412px -91px;
+	width: 32px;
+	height: 33px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.sprite_3:hover {
+	background: url('htdocs/images/icon.png') no-repeat -412px -16px;
+	width: 32px;
+	height: 33px;
+}
+
+nav.navigation li{
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 10px;
+}
